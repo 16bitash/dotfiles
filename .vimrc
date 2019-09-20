@@ -10,12 +10,12 @@ Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'moll/vim-node'
-Plug 'sergioramos/jsctags'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'mileszs/ack.vim'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 call plug#end()
 
 set number relativenumber

@@ -112,3 +112,6 @@ export PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 fpath=($fpath "/home/thinksysuser/.zfunctions")
+
+bindkey -v
+export KEYTIMEOUT=1

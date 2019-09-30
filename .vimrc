@@ -61,6 +61,8 @@ set wildignore+=*/.git/*,*/node_modules/*,*/tags/*
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+set ttimeoutlen=50
+
 let g:user_emmet_leader_key=','
 let g:user_emmet_settings = {
   \  'javascript.jsx' : {

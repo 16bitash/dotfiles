@@ -28,6 +28,8 @@ set smarttab
 set shiftwidth=2
 set modifiable
 
+let g:netrw_browse_split = 4
+
 let g:ackprg = 'ag --vimgrep'
 
 let mapleader = ' '

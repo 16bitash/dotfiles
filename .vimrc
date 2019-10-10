@@ -28,7 +28,7 @@ set smarttab
 set shiftwidth=2
 set modifiable
 
-let g:netrw_browse_split = 4
+let g:netrw_browse_split = 0
 
 let g:ackprg = 'ag --vimgrep'
 
@@ -36,6 +36,9 @@ let mapleader = ' '
 
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
+
+map mj :ALENext<cr>
+map mk :ALEPrevious<cr>
 
 map gn :bn<cr>
 map gp :bp<cr>

@@ -115,3 +115,5 @@ fpath=($fpath "/home/thinksysuser/.zfunctions")
 
 bindkey -v
 export KEYTIMEOUT=1
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

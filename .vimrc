@@ -45,7 +45,6 @@ map gp :bp<cr>
 map gd :bd<cr>
 
 let g:ycm_enable_diagnostic_highlighting = 0
-" Don't show YCM's preview window [ I find it really annoying ]
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
 

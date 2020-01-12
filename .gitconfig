@@ -4,4 +4,4 @@
 [core]
 	editor = vim
 [alias]
-	fancy-graph = log --decorate --oneline --graph --all
+	graph = log --decorate --oneline --graph --all
